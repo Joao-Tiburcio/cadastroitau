@@ -15,10 +15,10 @@
 
         <h2><input type="text" name="RG" required="" placeholder="Digite seu RG"></h2>
         <h2>Qual o seu gênero?</h2>
-        <input type="radio" name="genero" value="mulher" /> Mulher<br />
-        <input type="radio" name="genero" value="homem" /> Homem<br />
-        <input type="radio" name="genero" value="outro" /> Outro<br />
-        <input type="radio" name="genero" value="prefiro_nao_dizer" /> Prefiro não dizer
+        <input type="radio" name="genero" value="feminino" placeholder="feminino" /> Feminino<br />
+        <input type="radio" name="genero" value="masculino" placeholder="masculino" /> Masculino<br />
+        <input type="radio" name="genero" value="outro" placeholder="outro" /> Outro<br />
+        <input type="radio" name="genero" value="prefiro_nao_dizer" placeholder="prefiro não dizer" /> Prefiro não dizer
         <h2><input type="email" name="email" required="" placeholder="Digite seu e-mail"></h2>
         <h2><input type="tel" name="telefone fixo" placeholder="Caso tenha, digite um número de telefone fixo""></h2>
 <h2><input type=" tel" name="telefone celular" required="" placeholder="Número do celular"></h2>
@@ -56,14 +56,23 @@
 
         <h3><input type="text" name="cidade" required="" placeholder="Em qual cidade você mora"> </h3>
         <h3><input type="tex" name="rua" required="" placeholder="Qual o nome da sua rua"></h3>
+            <h3><input type="text" name="bairro" required="" placeholder="Digite o nome do seu bairro"></h3>
+                <h3><input type="text" name="numero" reuired="" placeholder="Qual o numero da sua residência?"></h3>
             <h3><input type="text" name="cep" required="" placeholder="Por último, qual o seu CEP?"></h3>
 
-
-        <input type="submit" name="enviar" value="Enviar">
+            <input type="submit" accesskey="E" value="Enviar" onclick="enviado(nome)">
+        
         <input type="reset" name="limpar" value="Limpar">
 
 
     </form>
+
+
+    <footer>
+        <p> 2021 | BANCO ITAÚ </p>
+      </footer>
+    
 </body>
+<script src="js/envia.js"></script>
 
 </html>

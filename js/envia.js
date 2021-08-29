@@ -1,3 +1,3 @@
 function enviado(){
-    alert('Sua menssagem foi enviada com sucesso.');
+    alert('Seu formulário foi  enviado sucesso.');
 }
